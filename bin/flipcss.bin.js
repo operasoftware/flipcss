@@ -166,8 +166,18 @@ function main() {
                                 res.cleanOnly, res.swapPseudo, res.flipUrls,
                                 res.flipSelectors);
 
-        fs.write(outfile, outdata);
-        fs.close(outfile);
+        fs.write(outfile, outdata, function (err, written, string) {
+          if (err) {
+            console.log(err.message);
+            process.exit(1);
+          }
+        });
+      fs.close(outfile, function (err) {
+        if (err) {
+          console.log(err.message);
+          process.exit(1);
+        }
+      });
     });
 }
 

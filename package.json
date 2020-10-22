@@ -6,11 +6,11 @@
     ],
     "name": "flipcss",
     "description": "Flip CSS from ltr to rtl (and vice versa).",
-    "version": "0.2.8",
-    "homepage": "https://github.com/oyvindeh/flipcss",
+    "version": "0.2.9",
+    "homepage": "https://github.com/operasoftware/flipcss",
     "repository": {
         "type": "git",
-        "url": "git@github.com:oyvindeh/flipcss.git"
+        "url": "git@github.com:operasoftware/flipcss.git"
     },
     "main": "./lib/flipcss.js",
     "bin": {

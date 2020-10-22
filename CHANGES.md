@@ -1,3 +1,7 @@
+## 2020.10.22, Version 0.2.9
+
+*   Add callback to fs.write() function in cli entrypoint
+
 ## 2014.08.01, Version 0.2.8
 
 *   Fix #9, add option for not swapping the words "left" and "right" in URLs.
